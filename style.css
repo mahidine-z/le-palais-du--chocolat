@@ -53,13 +53,13 @@ header img {
 
 nav a {
     /* Stylise les liens de navigation */
-    margin-left: 20px;
+    margin-left: 10px;
     color: #fff;
     /* Couleur du texte blanc */
     text-decoration: none;
     /* Supprime la décoration des liens */
     font-style: italic;
-     /*Texte en italique */
+    /*Texte en italique */
 }
 
 nav a:hover {
@@ -99,15 +99,17 @@ nav a:hover {
 .hero h2 {
     /* Stylise le sous-titre de la section héro */
     font-size: 30px;
-    font-family: 'Dancing Script', cursive; /* Utilisation de la police Dancing Script */
-   font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    /* Utilisation de la police Dancing Script */
+    font-weight: 400;
     margin-bottom: 30px;
 }
 
 .hero h1 {
     /* Stylise le titre de la section héro */
     font-size: 48px;
-    font-family: 'Dancing Script', cursive; /* Utilisation de la police Dancing Script */
+    font-family: 'Dancing Script', cursive;
+    /* Utilisation de la police Dancing Script */
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -133,7 +135,7 @@ nav a:hover {
 .produits div {
     /* Utilise une disposition flexible pour les produits */
     display: flex;
-    justify-content: space-between;
+
     flex-wrap: wrap;
 }
 
@@ -221,7 +223,7 @@ footer {
     /* Couleur de fond marron plus foncé */
     text-align: center;
     /*Hauteur du footer*/
-    height:400px;
+
 }
 
 footer div {
