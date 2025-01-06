@@ -116,8 +116,11 @@ nav a:hover {
     padding: 20px;
     border-radius: 10px; /* Bords arrondis */
     margin: 10px;
-    width: 20%;
+
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+}
+.large20{
+    width: 20%;
 }
 
 .produits img {
@@ -244,6 +247,33 @@ footer iframe {
     color: #ffffff;
     
 }
-.zonetemoignage{
-    display: flex;
+.zonetemoignage{ /* la boite qui définit ce qui est "visible" */
+    width: 100%;
+    overflow-x: scroll;
 }
+.flex-nowrap{
+    display: flex;
+    flex-wrap: nowrap;
+    width: fit-content;
+    gap: 15px;
+}
+
+/* Cote avis client */ 
+.avisBox {
+    width: 50%;
+    background-color: #709868;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+
+
+@media all and (max-width:500px){
+    .small100{width:100%;}
+    /* Le css pour les écrans plus petit que 500px de large */
+   
+    .card-body{
+        width: 300px;
+    }
+ }

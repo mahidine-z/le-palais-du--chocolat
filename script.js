@@ -44,7 +44,7 @@ function afficher(produit) {
     console.log(produit); // Affiche le produit dans la console
 
     // Crée un template HTML pour le produit
-    let template = `<div>
+    let template = `<div class="large20 small100">
             <img src="${imageUrl}" alt="Praliné croustillant">
             <h3>${titre}</h3>
             <p>${presentation}</p>
@@ -72,7 +72,7 @@ function afficherTemoignage(temoignage) {
 
     // Crée un template HTML pour le témoignage
     let template = `
-    <div id="zonetemoignage" class="card-body">
+    <div class="card-body">
         <p class="card-title">${nom}</p>
          <div class="card-text">
         <p>${typePrestation}</p>
